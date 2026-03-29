@@ -1,78 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Ebenezer Quarcoo | Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ebenezer Quarcoo | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="hero" id="home">
+    <nav class="top-nav">
+      <div class="nav-left">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <div class="hero-content">
+      <h1>Hi, I'm Ebenezer <br>Quarcoo!</h1>
+      <p>Scroll down to see more</p>
+      <div class="arrow-down">&#x2193;</div>
+    </div>
+  </header>
 
-<header>
-    <img src="EQ.png" alt="Ebenezer Quarcoo" class="profile-pic"/>
-    <h1>Ebenezer Quarcoo</h1>
-    <p>Cybersecurity & Digital Forensics Student</p>
-</header>
+  <header class="about-content" id="about">
+  <section id="about" class="about-main">
+    <header class="about-header">
+      <h2>About Me</h2>
+    </header>
+    <p>I am a creative designer and aspiring Cybersecurity & Digital Forensics professional passionate about combining technology, creativity and problem-solving. My journey sits at the intersection of <strong> visual storytelling</strong> and <strong>digital security</strong>, where design meets innovation.</p>
+    <p>As a visual designer, I specialize in creating modern, premium and engaging designs that help brands, events and businesses communicate their message with impact. I focus on clean aesthetics, strong visual identity and audience engagement that delivers real results.</p>
+    <p>Alongside my creative work, I am currently studying <strong>Cybersecurity and Digital Forensics</strong>, developing skills in digital investigation, system securury and programming. My goal is to build a career that protects digital environments while continuing to express creativity through design and technology.</p>
+    <p>Beyond design, I am deeply inspired by music through creativity and continous learning. I believe in growth, discipline and using both analytical thinking and artistic vision to create meaningful digital experiences.</p>
+    <p><strong>Mission:</strong> <br>
+    To design with purpose, secure digital spaces, and continuosly evolve at the intersection of creativity and technology.</p>
+  </section>
+  </header>
 
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a Cybersecurity and Digital Forensics student passionate about Ethical Hacking,
-        System Security and Programming. I enjoy learning how systems work and how to protect them from attacks.
-    </p>
-</section>
-
-<section id="projects">
+  <section id="projects" class="project-section">
     <h2>Projects</h2>
-    <div class="projects">
-        <div class="card">
-            <h3>Password Strength Checker</h3>
-            <p>A Python tool that checks password strength based on security rules.</p>
-        </div>
-        <div class="card">
-            <h3>Basic Network Scanner</h3>
-            <p>A beginner-friendly scanner that detects active devices on a local network.</p>
-        </div>
+    <p class="project-placeholder">Project cards are empty for now. Add creative flyers here later.</p>
+    <div class="projects-grid"></div>
+        <div class="tile-image" style="background-image:url('https://via.placeholder.com/1200x700/0f172a/ebeefb?text=PyClub+AAMUSTED')"></div>
+        <h3>PyClub AAMUSTED</h3>
+        <p>Community coding space project for Python beginners and data science club activities.</p>
+      </article>
+      <article class="tile">
+        <div class="tile-image" style="background-image:url('https://via.placeholder.com/1200x700/0f172a/ebeefb?text=Portfolio+Site')"></div>
+        <h3>Portfolio Website</h3>
+        <p>Modern responsive landing page with a dark hero, section cards, and smooth interactions.</p>
+      </article>
+      <article class="tile">
+        <div class="tile-image" style="background-image:url('https://via.placeholder.com/1200x700/0f172a/ebeefb?text=Security+Tool')"></div>
+        <h3>Security Tools</h3>
+        <p>Password strength checker, network scanner, and other cybersecurity utilities.</p>
+      </article>
     </div>
-</section>
+  </section>
 
-<section id="skills">
+  <section id="skills" class="skills-section">
     <h2>Skills</h2>
-    <div class="skills">
-        <div class="card">
-            <h3>Graphic Design</h3>
-            <p>I am graphic designer with strong creativity, attention to details and passion for visual
-                story telling. I create aesthetic and functional designs to boost your brand's visual identity.
-            </p>
-        </div>
-        <div class="card">
-            <h3>Web Developer</h3>
-           <p>I am a programmer who has specialised in Python, HTML and CSS programming languages.</p> 
-        </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Web Development</h3>
+        <p>HTML, CSS, JavaScript, responsive UI, and accessible navigation.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Cybersecurity</h3>
+        <p>Vulnerability analysis, network security, incident response, and forensic workflows.</p>
+      </div>
+      <div class="skill-card">
+        <h3>Graphic Design</h3>
+        <p>Brand identity, UI layout, typography, and modern visual systems.</p>
+      </div>
     </div>
+  </section>
 
-</section>
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>If you have any questions, want to collaborate on a project, or just want
-      <p>WhatsApp: <a href="https://wa.me/qr/EVFXKHIS6NAKG1">Chat now</a></p>
-      <p>Email: <a href="mailto:ekwame490@gmail.com">ekwame490@gmail.com</a></p>
-      <p>Phone: +233 20 129 8650 / +233 20 343 4180</p>
-      <button onclick="alert('Thanks for reaching out!')">Say Hello</button>
-    </section>
-</section>
+  <section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <p>Questions, project collaborations, or mentorship inquiries are welcome.</p>
+    <ul>
+      <li>WhatsApp: <a href="https://wa.me/qr/EVFXKHIS6NAKG1" target="_blank">Chat now</a></li>
+      <li>Email: <a href="mailto:ekwame490@gmail.com">ekwame490@gmail.com</a></li>
+      <li>Phone: +233 20 129 8650 / +233 20 343 4180</li>
+    </ul>
+    <button type="button" onclick="alert('Thanks for reaching out!')">Say Hello</button>
+  </section>
 
-<footer>
+  <footer>
     <p>&copy; 2026 Ebenezer Quarcoo. All rights reserved.</p>
-</footer>
-
+  </footer>
 </body>
 </html>
