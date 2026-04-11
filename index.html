@@ -1,94 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ebenezer Quarcoo | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero" id="home">
-    <nav class="top-nav">
-      <div class="nav-left">
+  <nav class="top-nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">QE STUDIOS</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </div>
-    </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+      <button class="nav-toggle" aria-label="Open navigation">☰</button>
+    </div>
+  </nav>
 
-    <div class="hero-content">
-      <h1>Hi, I'm Ebenezer <br>Quarcoo!</h1>
-      <p>Scroll down to see more</p>
-      <div class="arrow-down">&#x2193;</div>
+  <header class="hero" id="home">
+    <div class="container hero-content">
+      <p class="hero-tag">Designer & Cybersecurity Learner</p>
+      <h1>Hi, I’m <span>Ebenezer</span> Quarcoo</h1>
+      <p class="hero-subtitle">Building modern digital experiences and secure systems with creativity and purpose.</p>
+      <a class="btn" href="#projects">View Projects</a>
     </div>
   </header>
 
-  <header class="about-content" id="about">
-  <section id="about" class="about-main">
-    <header class="about-header">
-      <h2>About Me</h2>
-    </header>
-    <p>I am a creative designer and aspiring Cybersecurity & Digital Forensics professional passionate about combining technology, creativity and problem-solving. My journey sits at the intersection of <strong> visual storytelling</strong> and <strong>digital security</strong>, where design meets innovation.</p>
-    <p>As a visual designer, I specialize in creating modern, premium and engaging designs that help brands, events and businesses communicate their message with impact. I focus on clean aesthetics, strong visual identity and audience engagement that delivers real results.</p>
-    <p>Alongside my creative work, I am currently studying <strong>Cybersecurity and Digital Forensics</strong>, developing skills in digital investigation, system securury and programming. My goal is to build a career that protects digital environments while continuing to express creativity through design and technology.</p>
-    <p>Beyond design, I am deeply inspired by music through creativity and continous learning. I believe in growth, discipline and using both analytical thinking and artistic vision to create meaningful digital experiences.</p>
-    <p><strong>Mission:</strong> <br>
-    To design with purpose, secure digital spaces, and continuosly evolve at the intersection of creativity and technology.</p>
-  </section>
-  </header>
-
-  <section id="projects" class="project-section">
-    <h2>Projects</h2>
-    <p class="project-placeholder">Project cards are empty for now. Add creative flyers here later.</p>
-    <div class="projects-grid"></div>
-        <div class="tile-image" style="background-image:url('https://via.placeholder.com/1200x700/0f172a/ebeefb?text=PyClub+AAMUSTED')"></div>
-        <h3>PyClub AAMUSTED</h3>
-        <p>Community coding space project for Python beginners and data science club activities.</p>
-      </article>
-      <article class="tile">
-        <div class="tile-image" style="background-image:url('https://via.placeholder.com/1200x700/0f172a/ebeefb?text=Portfolio+Site')"></div>
-        <h3>Portfolio Website</h3>
-        <p>Modern responsive landing page with a dark hero, section cards, and smooth interactions.</p>
-      </article>
-      <article class="tile">
-        <div class="tile-image" style="background-image:url('https://via.placeholder.com/1200x700/0f172a/ebeefb?text=Security+Tool')"></div>
-        <h3>Security Tools</h3>
-        <p>Password strength checker, network scanner, and other cybersecurity utilities.</p>
-      </article>
-    </div>
-  </section>
-
-  <section id="skills" class="skills-section">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-card">
-        <h3>Web Development</h3>
-        <p>HTML, CSS, JavaScript, responsive UI, and accessible navigation.</p>
+  <section id="about" class="section about-section">
+    <div class="container grid-2">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>I’m a creative designer and aspiring cybersecurity & digital forensics professional with a passion for solving problems at the intersection of design and security. I build engaging, user-centered experiences while strengthening digital systems against threats.</p>
+        <ul>
+          <li>🎨 Visual design, branding, UX/UI</li>
+          <li>🛡️ Cybersecurity basics, incident response, forensic concepts</li>
+          <li>💻 Web development: HTML, CSS, JavaScript, responsive layouts</li>
+          <li>📈 Continuous learning & creative collaboration</li>
+        </ul>
       </div>
-      <div class="skill-card">
-        <h3>Cybersecurity</h3>
-        <p>Vulnerability analysis, network security, incident response, and forensic workflows.</p>
-      </div>
-      <div class="skill-card">
-        <h3>Graphic Design</h3>
-        <p>Brand identity, UI layout, typography, and modern visual systems.</p>
+      <div class="about-cards">
+        <div class="stat-card"><h3>6+</h3><p>Months experience</p></div>
+        <div class="stat-card"><h3>10+</h3><p>Projects in progress</p></div>
+        <div class="stat-card"><h3>20</h3><p>Placeholder images ready</p></div>
       </div>
     </div>
   </section>
 
-  <section id="contact" class="contact-section">
-    <h2>Contact Me</h2>
-    <p>Questions, project collaborations, or mentorship inquiries are welcome.</p>
-    <ul>
-      <li>WhatsApp: <a href="https://wa.me/qr/EVFXKHIS6NAKG1" target="_blank">Chat now</a></li>
-      <li>Email: <a href="mailto:ekwame490@gmail.com">ekwame490@gmail.com</a></li>
-      <li>Phone: +233 20 129 8650 / +233 20 343 4180</li>
-    </ul>
-    <button type="button" onclick="alert('Thanks for reaching out!')">Say Hello</button>
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="section-subtitle">Open slots for 20 image-example projects. Replace placeholders with your project visuals and links.</p>
+      <div class="projects-grid">
+        <!-- 20 project cards with placeholders -->
+        <script>
+          const projectsGrid = [];
+          for (let i = 1; i <= 20; i++) {
+            projectsGrid.push(`
+              <article class="project-card">
+                <div class="project-thumb">Add image ${i}</div>
+                <h3>Project ${i}</h3>
+                <p>Brief summary of project ${i} goes here. Replace with real details and screenshot.</p>
+                <div class="project-actions">
+                  <a href="#" aria-label="View project ${i}">View</a>
+                </div>
+              </article>
+            `);
+          }
+          document.write(projectsGrid.join(''));
+        </script>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>&copy; 2026 Ebenezer Quarcoo. All rights reserved.</p>
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><h3>Web Development</h3><p>HTML, CSS, JavaScript, React, responsive design, accessibility.</p></div>
+        <div class="skill-card"><h3>Cybersecurity</h3><p>Network fundamentals, threat modeling, incident response, secure coding.</p></div>
+        <div class="skill-card"><h3>Graphic Design</h3><p>Brand systems, typography, layout, visual storytelling, tools (Figma, Canva).</p></div>
+        <div class="skill-card"><h3>Soft Skills</h3><p>Communication, problem-solving, collaboration, adaptability.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container grid-2">
+      <div>
+        <h2>Contact Me</h2>
+        <p>Let’s work on something awesome. I’m open to collaborations, mentorship, and freelance opportunities.</p>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:ekwame490@gmail.com">ekwame490@gmail.com</a></li>
+          <li>WhatsApp: <a href="https://wa.me/qr/EVFXKHIS6NAKG1" target="_blank" rel="noreferrer">+233 20 129 8650</a></li>
+          <li>Phone: +233 20 343 4180</li>
+        </ul>
+        <a class="btn-outline" href="mailto:ekwame490@gmail.com">Say Hello</a>
+      </div>
+      <div class="contact-card">
+        <h3>Quick Info</h3>
+        <p>Based in Ghana. Available for remote and local projects. Builds future-focused design plus secure systems.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Ebenezer Quarcoo. All rights reserved.</p>
   </footer>
+
+  <script>
+    // Year update
+    document.getElementById('year').textContent = new Date().getFullYear();
+    
+    // Mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Dark mode theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+    
+    // Check for saved theme preference or default to light mode
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    html.setAttribute('data-theme', savedTheme);
+    updateThemeButton(savedTheme);
+    
+    // Handle theme toggle
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = html.getAttribute('data-theme');
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      updateThemeButton(newTheme);
+    });
+    
+    // Update button icon
+    function updateThemeButton(theme) {
+      themeToggle.textContent = theme === 'light' ? '🌙' : '☀️';
+    }
+  </script>
 </body>
 </html>
